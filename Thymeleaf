@@ -11,7 +11,9 @@ Thymeleaf Layout Dialect
 The types of expressions Thymeleaf supports are:
 
 ${...} - Variable Expressions. These are the standard expressions.
-*{...} - Selection Variable Expressions. These are the same as variable expressions, except that they are used in combination with a a th:object attribute. For example, if you have <form th:object="${form}">, then the expression *{field} resolves to ${form.field}. These are mostly used when using th:field attributes while creating a form.
+*{...} - Selection Variable Expressions. These are the same as variable expressions, except that they are used in combination with a a th:object attribute. 
+            For example, if you have <form th:object="${form}">, then the expression *{field} resolves to ${form.field}. These are mostly used when using th:field 
+            attributes while creating a form.
 #{...} - Message Expressions. These expressions are mainly used to externalize text. For example, to provide text in different languages by reading from a messages file.
 @{...} - Link URL Expressions. Used to generate URLs, see the standard url syntax.
 ~{...} - Fragment Expression. Used to specify which fragment to include, see fragment specification syntax.
