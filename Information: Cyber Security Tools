@@ -1,0 +1,36 @@
+#Footprinting
+- Google Hacking Database (GHDB): https://www.exploit-db.com/
+- Youtube Dataviewer
+- Shodan
+- Censys
+- NAPALAM FTP Indexer : https://www.searchftps.net/
+- Google Advance Search: 
+     - For google search - https://google.com/advanced_search
+     - For Image search  - https://google.com/advanced_image_search
+     - For Video search  - https://google.com/advanced_video_search
+##Reverse image search Tools
+- Google Reverse Image Search: https://google.com/imghp
+- TinyEye: https://tineye.com/
+
+## To find the sub domains
+- Netcraft: https://www.netcraft.com/       
+- Sublist3r: https://github.com/aboul3la/Sublist3r    # Python script to find the sub domains
+  python -d google.com -p 80 -e Bing -v
+- Pentest-tools: https://pentest-tools.com/ 
+
+##People Search Service
+- Spokeo
+- Intelius
+- pipl
+- BeenVerified
+- Whitepapers
+- PeekYou
+- theHarvester: https://github.com/laramies/theHarvester  # Gather information from LinkedIn
+
+##Dark web searching tool
+- OnionLand Search 
+
+
+   
+
+
