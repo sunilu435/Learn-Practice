@@ -60,3 +60,18 @@
 - Infoga - https://github.com/GiJ03/Infoga
 - mailtrack - https://mailsuite.com/en/
 - PoliteMail  - https://politemail.com/
+
+## Scanning Tools
+- Hping3
+a. ICMP Ping : hping3 -1 <IP address>
+b. ACK scan on port 80: hping3 -A <IP Address> -p 80
+c. UDP Scan on port 80: hping3 -2 <IP Address> -p 80
+d. SYN scan on port 80: hping3 -a 50-60 -s <IP address> -v
+e. FIN,PUSH and URG scan on port 80: hping3 -F -P -U <IP Address> -p 80
+f. Scan entire subnet for live host: hping3 -1 <IP address> --rand-dest -I eth0
+g. Collecting initial sequence number: hping3 <IP Address> -Q -p 139
+h. Intercept all traffic containing HTTP signature: hping3 -9 HTTP -r eth0
+i. Firewalls and Timestamps: hping3 -s <IP address> -p 80 --tcp-timestamp
+j. SYN flooding a victim: hping3 -S <IP address/src > -a <IP address Dst> -p 22 --flood
+
+-Nmap : nmap <options> <Target IP address>
